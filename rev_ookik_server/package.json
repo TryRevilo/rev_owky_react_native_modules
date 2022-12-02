@@ -1,0 +1,38 @@
+{
+  "name": "rev_node_pers_remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "busboy": "^0.3.1",
+    "connect-redis": "^6.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "ws": "^7.3.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryRevilo/rev_node_pers_remote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TryRevilo/rev_node_pers_remote/issues"
+  },
+  "homepage": "https://github.com/TryRevilo/rev_node_pers_remote#readme"
+}
